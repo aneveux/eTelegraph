@@ -1,17 +1,17 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: eTelegraph
-Bundle-SymbolicName: com.github.aneveux.etelegraph;singleton:=true
+Bundle-SymbolicName: com.github.jtooling.etelegraph;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: com.github.aneveux.etelegraph.ETelegraph
+Bundle-Activator: com.github.jtooling.etelegraph.ETelegraph
 Bundle-Vendor: Antoine Neveux
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
- lib/jtelegraph-2.1.0-SNAPSHOT-jar-with-dependencies.jar
-Export-Package: com.github.aneveux.etelegraph,
- org.jtelegraph,
- org.jtelegraph.audio,
- org.jtelegraph.icons
+ lib/jtelegraph-2.1.0-jar-with-dependencies.jar
+Export-Package: com.github.jtooling.etelegraph,
+ com.github.jtooling.jtelegraph,
+ com.github.jtooling.jtelegraph.audio,
+ com.github.jtooling.jtelegraph.icons

@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.github.aneveux.etelegraph.feature"
+      id="com.github.jtooling.etelegraph.feature"
       label="eTelegraph"
       version="1.0.0.qualifier"
       provider-name="Antoine Neveux">
 
-   <description url="http://aneveux.github.com/eTelegraph">
-      eTelegraph Eclipse plugin allows to display user-friendly notifications through JTelegraph directly inside Eclipse!
+   <description url="http://jtooling.github.com/eTelegraph">
+      eTelegraph Eclipse plugin allows to display user-friendly notifications
+through JTelegraph directly inside Eclipse!
    </description>
 
    <copyright url="http://opensource.org/licenses/bsd-license.php">
-      eTelegraph - An user friendly Eclipse plugin to manage easily your
+      eTelegraph - An user friendly Eclipse plugin to manage easily
+your
 proxy inside Eclipse
 Copyright (c) 2012, Antoine Neveux
 All rights reserved.
@@ -79,7 +81,7 @@ POSSIBILITY OF SUCH DAMAGE.
    </license>
 
    <plugin
-         id="com.github.aneveux.etelegraph"
+         id="com.github.jtooling.etelegraph"
          download-size="0"
          install-size="0"
          version="0.0.0"

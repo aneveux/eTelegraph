@@ -6,11 +6,11 @@
 		<xsl:for-each select="site">
 			<html>
 				<head>
-					<title>com.github.aneveux.etelegraph.repository</title>
+					<title>com.github.jtooling.etelegraph.repository</title>
 					<style>@import url("web/site.css");</style>
 				</head>
 				<body>
-					<h1 class="title">com.github.aneveux.etelegraph.repository</h1>
+					<h1 class="title">com.github.jtooling.etelegraph.repository</h1>
 					<p class="bodyText">
 						<xsl:value-of select="description" />
 					</p>
